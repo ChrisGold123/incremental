@@ -13,7 +13,7 @@ function buyTwo() {
   if(armor >= costTwo) {
     two += 1;
     armor -= costTwo;
-    costTwo = Math.floor(costTwo * Math.pow(1.1, two);
+    costTwo = Math.floor(costTwo * Math.pow(1.1, two));
     document.getElementById('costTwo').innerHTML = costTwo;
     document.getElementById('armory').innerHTML = armor;
     document.getElementById('amTwo').innerHTML = two;
