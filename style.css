@@ -1,4 +1,10 @@
 body {
   background-color: blue;
   color: white;
+  text-align: center;
+}
+
+.clickIMG {
+    height: 80px;
+    width: 80px;
 }
