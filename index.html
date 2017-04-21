@@ -4,11 +4,17 @@
 
 <body>
   <h2>Zbieraj robaki</h2>
-  <p>Ilość zebranych pancerzy<span id='armory'>0</span></p>
-  <div id='robak'>
-    <img class=clickIMG id='one' src="/incremental/src/1.jpg" alt='1'>
-    <button class=clickButton id='oneButton'  onclick='giveOne()'>Daj jedynkę</button>
-    </div>
+  <p>Ilość zebranych pancerzy: <span id='armory'>0</span></p>
+  <div id='one'>
+    <img class=clickIMG id='one' src="/incremental/src/1.jpg" alt='1'><br>
+    <button class=clickButton id='oneButton'  onclick='giveOne(1)'>Daj jedynkę</button>
+  </div>
+  <div id='two'>
+    <img class=clickIMG id='two' src='/incremental/src/2.png' alt='2'><br>
+    <button class=clickButton id='buyTwo' onclick='buyTwo(1)'>Kup dwójkę</button>
+    <p>Dwójka kosztuje <span id='costTwo'>10</span>. Jedna dwójka produkuje 1 pancerz/sekundę.</p>
+    <p>Dwójka produkuje <span id='prodTwo'>0</span>pancerz/sekundę.</p>
+  </div>
 </body>
 
 <script src='script.js'></script>
